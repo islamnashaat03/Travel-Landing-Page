@@ -1,12 +1,13 @@
-.footer{
-  .jadoo{
+.footer {
+  .jadoo {
     font-family: Poppins;
     font-size: 44px;
     line-height: 1.48;
     text-align: left;
     color: #181e4b;
   }
-  .footer-paragraph{
+
+  .footer-paragraph {
     font-family: Poppins;
     font-size: 13px;
     font-weight: 500;
@@ -15,8 +16,8 @@
     color: #5e6282;
   }
 
-  .footer__coloum{
-    .footer__coloum__title{
+  .footer__coloum {
+    .footer__coloum__title {
       font-family: Poppins;
       font-size: 21px;
       font-weight: bold;
@@ -25,29 +26,80 @@
       color: #080809;
       margin-bottom: 30px;
     }
-    .footer__coloum__links{
+
+    .footer__coloum__links {
       list-style: none;
       padding: 0;
-      .footer__coloum__link{
+
+      .footer__coloum__link {
         font-family: Poppins;
         font-size: 18px;
         font-weight: 500;
         line-height: 1.22;
         text-align: left;
         color: #5e6282;
-        margin: 15px 0 ;
+        margin: 15px 0;
       }
     }
 
   }
-  .footer-social{
+
+  .footer-social {
     display: flex;
     gap: 25px;
-    .social-icon{
+    margin-bottom: 25px;
+
+    .social-icon {
       box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
       background-color: #fff;
       padding: 8px;
       border-radius: 50%;
+      font-size: 22px;
+    }
+  }
+
+  .discover {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    color: #5e6282;
+  }
+
+  .footer__stores {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .store-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #080809;
+      padding: 7px 11px 8px 17.7px;
+      min-width: 100px;
+      border-radius: 20px;
+
+      .icon-google-play,.icon-Group11 {
+        font-size: 25px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      p {
+        margin: 0;
+        font-family: Poppins;
+        font-size: 10px;
+        line-height: 1.13;
+        text-align: left;
+        color: #fff;
+        // text-transform: uppercase;
+      }
     }
   }
 }

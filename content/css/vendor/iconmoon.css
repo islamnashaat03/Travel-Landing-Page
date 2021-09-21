@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/iconmoon/icomoon.eot?ffnu9m');
-  src: url('../fonts/iconmoon/icomoon.eot?ffnu9m#iefix') format('embedded-opentype'),
-    url('../fonts/iconmoon/icomoon.ttf') format('truetype'),
-    url('../fonts/iconmoon/icomoon.woff?ffnu9m') format('woff'),
-    url('../fonts/iconmoon/icomoon.svg?ffnu9m#icomoon') format('svg');
+  src:  url('../fonts/iconmoon/icomoon.eot?r6r8h4');
+  src:  url('../fonts/iconmoon/icomoon.eot?r6r8h4#iefix') format('embedded-opentype'),
+    url('../fonts/iconmoon/icomoon.ttf?r6r8h4') format('truetype'),
+    url('../fonts/iconmoon/icomoon.woff?r6r8h4') format('woff'),
+    url('../fonts/iconmoon/icomoon.svg?r6r8h4#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -20,6 +19,16 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -30,382 +39,321 @@
   content: "\e900";
   color: #84829a;
 }
-
 .icon-Ellipse:before {
   content: "\e904";
 }
-
-.icon-Facebook:before {
-  content: "\e906";
-}
-
 .icon-google-play .path1:before {
   content: "\e907";
   color: rgb(33, 150, 243);
 }
-
 .icon-google-play .path2:before {
   content: "\e90a";
   margin-left: -0.927734375em;
   color: rgb(76, 175, 80);
 }
-
 .icon-google-play .path3:before {
   content: "\e90b";
   margin-left: -0.927734375em;
   color: rgb(240, 187, 31);
 }
-
 .icon-google-play .path4:before {
   content: "\e90c";
   margin-left: -0.927734375em;
   color: rgb(241, 90, 43);
 }
-
 .icon-Group11:before {
   content: "\e90d";
   color: #fff;
 }
-
 .icon-heart:before {
   content: "\e90e";
   color: #4152ca;
 }
-
 .icon-instagram1:before {
   content: "\e90f";
 }
-
 .icon-leaf:before {
   content: "\e910";
   color: #84829a;
 }
-
 .icon-mail:before {
   content: "\e911";
 }
-
 .icon-map:before {
   content: "\e912";
   color: #84829a;
 }
-
 .icon-mic:before {
   content: "\e913";
 }
-
 .icon-navigation:before {
   content: "\e914";
 }
-
 .icon-plane .path1:before {
   content: "\e915";
   color: rgb(213, 214, 219);
 }
-
 .icon-plane .path2:before {
   content: "\e916";
   margin-left: -1.5625em;
   color: rgb(213, 214, 219);
 }
-
 .icon-plane .path3:before {
   content: "\e917";
   margin-left: -1.5625em;
   color: rgb(2, 155, 197);
 }
-
 .icon-plane .path4:before {
   content: "\e918";
   margin-left: -1.5625em;
   color: rgb(225, 230, 233);
 }
-
 .icon-plane .path5:before {
   content: "\e919";
   margin-left: -1.5625em;
   color: rgb(2, 155, 197);
 }
-
 .icon-plane .path6:before {
   content: "\e91a";
   margin-left: -1.5625em;
   color: rgb(2, 155, 197);
 }
-
 .icon-plane .path7:before {
   content: "\e91b";
   margin-left: -1.5625em;
   color: rgb(2, 155, 197);
 }
-
 .icon-plane .path8:before {
   content: "\e91c";
   margin-left: -1.5625em;
   color: rgb(2, 155, 197);
 }
-
 .icon-plane .path9:before {
   content: "\e91d";
   margin-left: -1.5625em;
   color: rgb(213, 214, 219);
 }
-
 .icon-plane .path10:before {
   content: "\e91e";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path11:before {
   content: "\e91f";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path12:before {
   content: "\e920";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path13:before {
   content: "\e921";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path14:before {
   content: "\e922";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path15:before {
   content: "\e923";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path16:before {
   content: "\e924";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path17:before {
   content: "\e925";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path18:before {
   content: "\e926";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path19:before {
   content: "\e927";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-plane .path20:before {
   content: "\e928";
   margin-left: -1.5625em;
   color: rgb(58, 85, 106);
 }
-
 .icon-Polygon:before {
   content: "\e929";
   color: #fff;
 }
-
 .icon-satellite-dish .path1:before {
   content: "\e92a";
   color: rgb(64, 112, 147);
 }
-
 .icon-satellite-dish .path2:before {
   content: "\e92b";
   margin-left: -0.953125em;
   color: rgb(54, 94, 125);
 }
-
 .icon-satellite-dish .path3:before {
   content: "\e92c";
   margin-left: -0.953125em;
   color: rgb(74, 128, 170);
 }
-
 .icon-satellite-dish .path4:before {
   content: "\e92d";
   margin-left: -0.953125em;
   color: rgb(64, 112, 147);
 }
-
 .icon-satellite-dish .path5:before {
   content: "\e92e";
   margin-left: -0.953125em;
   color: rgb(74, 128, 170);
 }
-
 .icon-satellite-dish .path6:before {
   content: "\e92f";
   margin-left: -0.953125em;
   color: rgb(64, 112, 147);
 }
-
 .icon-satellite-dish .path7:before {
   content: "\e930";
   margin-left: -0.953125em;
   color: rgb(255, 208, 134);
 }
-
 .icon-satellite-dish .path8:before {
   content: "\e931";
   margin-left: -0.953125em;
   color: rgb(255, 195, 101);
 }
-
 .icon-satellite-dish .path9:before {
   content: "\e932";
   margin-left: -0.953125em;
   color: rgb(54, 94, 125);
 }
-
 .icon-satellite-dish .path10:before {
   content: "\e933";
   margin-left: -0.953125em;
   color: rgb(64, 112, 147);
 }
-
 .icon-satellite-dish .path11:before {
   content: "\e934";
   margin-left: -0.953125em;
   color: rgb(54, 94, 125);
 }
-
 .icon-satellite-dish .path12:before {
   content: "\e935";
   margin-left: -0.953125em;
   color: rgb(64, 112, 147);
 }
-
 .icon-satellite-dish .path13:before {
   content: "\e936";
   margin-left: -0.953125em;
   color: rgb(255, 195, 101);
 }
-
 .icon-satellite-dish .path14:before {
   content: "\e937";
   margin-left: -0.953125em;
   color: rgb(255, 169, 15);
 }
-
 .icon-satellite-dish .path15:before {
   content: "\e938";
   margin-left: -0.953125em;
   color: rgb(74, 128, 170);
 }
-
 .icon-satellite-dish .path16:before {
   content: "\e939";
   margin-left: -0.953125em;
   color: rgb(181, 220, 255);
 }
-
 .icon-satellite-dish .path17:before {
   content: "\e93a";
   margin-left: -0.953125em;
   color: rgb(139, 202, 255);
 }
-
 .icon-satellite-dish .path18:before {
   content: "\e93b";
   margin-left: -0.953125em;
   color: rgb(219, 237, 255);
 }
-
 .icon-satellite-dish .path19:before {
   content: "\e93c";
   margin-left: -0.953125em;
   color: rgb(181, 220, 255);
 }
-
 .icon-selection:before {
   content: "\e93d";
   color: #fff;
 }
-
 .icon-send:before {
   content: "\e93e";
   color: #84829a;
 }
-
 .icon-setting .path1:before {
   content: "\e93f";
   color: rgb(182, 196, 207);
 }
-
 .icon-setting .path2:before {
   content: "\e940";
   margin-left: -1em;
   color: rgb(159, 172, 186);
 }
-
 .icon-setting .path3:before {
   content: "\e941";
   margin-left: -1em;
   color: rgb(159, 172, 186);
 }
-
 .icon-setting .path4:before {
   content: "\e942";
   margin-left: -1em;
   color: rgb(248, 247, 247);
 }
-
 .icon-taxi:before {
   content: "\e943";
   color: #fff;
 }
-
 .icon-twitter1:before {
   content: "\e944";
 }
-
 .icon-up:before {
   content: "\e945";
 }
-
 .icon-water-sport:before {
   content: "\e946";
   color: #fff;
 }
-
 .icon-chevron-down:before {
   content: "\e901";
 }
-
 .icon-instagram:before {
   content: "\e905";
 }
-
 .icon-search:before {
   content: "\e908";
 }
-
 .icon-twitter:before {
   content: "\e909";
 }
-
+.icon-check-mark:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
 .icon-chevron-up:before {
   content: "\f077";
 }
-
 .icon-chevron-down1:before {
   content: "\f078";
+}
+.icon-heart1:before {
+  content: "\f004";
+}
+.icon-heart2:before {
+  content: "\e9da";
 }
