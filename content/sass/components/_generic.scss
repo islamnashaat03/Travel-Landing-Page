@@ -1,0 +1,26 @@
+body{
+  height: 10000px;
+}
+
+.container{
+  max-width: 1160px !important;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    color: unset;
+  }
+}
+img{max-width: 100%;}
+@media only screen and (min-width:1000px) {
+  .home-page{
+    background-image: url(../images/Decore22.png);
+    background-repeat: no-repeat;
+    background-position: -585px -395px;
+  }
+}
+@media only screen and (min-width:1441px)  {
+  .home-page{
+    background-position: -325px -395px;
+}
+}
