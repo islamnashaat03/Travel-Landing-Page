@@ -1,0 +1,43 @@
+.home-page{
+  .navbar{
+    margin-bottom: 60px;
+    .navbar-nav{
+      .nav-item{
+        color: #212832;
+        font-size: 17px;
+        font-weight: 500;
+        .sign-btn{
+          border: 1px solid;
+          border-radius: 4px;
+          padding: 6px 18px;
+          width: fit-content;
+        }
+      }
+      .dropdown{
+        .dropdown-menu{
+          min-width: 2rem;
+        }
+      }
+      
+    }
+    .navbar-toggler{
+      border: 0;
+      outline: 0;
+      box-shadow: none;
+    }
+    .navbar-collapse{
+      margin: 5px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .home-page{
+    .navbar{
+      margin-bottom: 110px;
+      .navbar-nav{
+        gap: 40px;
+      }
+    }
+  }
+}

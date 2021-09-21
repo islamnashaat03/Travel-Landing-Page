@@ -1,0 +1,16 @@
+.container{
+  max-width: 1160px !important;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    color: unset;
+  }
+}
+img{max-width: 100%;}
+body{
+  background-image: url(../images/Decore22.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -115px;
+}

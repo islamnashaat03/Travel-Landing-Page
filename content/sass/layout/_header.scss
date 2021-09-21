@@ -1,0 +1,88 @@
+.header{
+  .header__brief{
+    .header__brief__head{
+      color: #df6951;
+      font-family: Poppins;
+      font-size: calc((20px + (26 - 20) * ((100vw - 1366px) / (1920 - 1366))));
+      font-weight: bold;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    .header__brief__main-paragraph{
+      font-family: Volkhov;
+      font-size: calc((84px + (84 - 80 ) * ((100vw - 1366px) / (1920 - 1366))));
+      font-weight: bold;
+      line-height: 1.06;
+      letter-spacing: -1px;
+      text-align: left;
+      color: #181e4b;
+    }
+    .header__brief__second-paragraph{
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.88;
+      text-align: left;
+      color: #5e6282;
+      margin-bottom: 50px;
+    }
+    .header__brief__btns{
+      display: flex;
+      gap: 44px;
+      align-items: center;
+      .find-out-btn{
+        border-radius: 10px;
+        box-shadow: 0 20px 70px 0 rgba(241, 165, 1, 0.15);
+        background-color: #f1a501;
+        color: #fff;
+        padding: 20px 35px;
+      }
+      .play-btn{
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.53;
+        text-align: left;
+        color: #686d77;
+        img{margin-#{$end}: 20px;}
+      }
+      
+    }
+  }
+
+}
+
+@media only screen and (min-width:992px) {
+  .header{
+    .header__img{
+      margin-top: -100px;
+    }
+  }
+}
+@media only screen and (max-width:767px) {
+  .header{
+    .header__brief{
+      .header__brief__btns{
+        flex-direction: column;
+      }
+    }
+  }
+}
+@media only screen and (max-width:991px) {
+  .header{
+    .header__brief{
+      margin-bottom: 50px;
+      .header__brief__head{
+        font-size: calc((16px + (22 - 16) * ((100vw - 320px) / (1366 - 320))));
+      }
+      .header__brief__main-paragraph{
+        font-size: calc((30px + (35 - 30) * ((100vw - 320px) / (1366 - 320))));
+      }
+      .header__brief__btns{
+        .find-out-btn{
+          padding: 20px 23px ;
+        }
+      }
+    }
+  }
+}
