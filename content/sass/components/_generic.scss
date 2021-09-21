@@ -7,11 +7,17 @@ body{
 }
 a{
   text-decoration: none;
+  color: inherit;
   &:hover{
     color: unset;
   }
 }
 img{max-width: 100%;}
+.flex-center{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 @media only screen and (min-width:1000px) {
   .home-page{
     background-image: url(../images/Decore22.png);

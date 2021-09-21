@@ -1,0 +1,53 @@
+.footer{
+  .jadoo{
+    font-family: Poppins;
+    font-size: 44px;
+    line-height: 1.48;
+    text-align: left;
+    color: #181e4b;
+  }
+  .footer-paragraph{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.23;
+    text-align: left;
+    color: #5e6282;
+  }
+
+  .footer__coloum{
+    .footer__coloum__title{
+      font-family: Poppins;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.24;
+      text-align: left;
+      color: #080809;
+      margin-bottom: 30px;
+    }
+    .footer__coloum__links{
+      list-style: none;
+      padding: 0;
+      .footer__coloum__link{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.22;
+        text-align: left;
+        color: #5e6282;
+        margin: 15px 0 ;
+      }
+    }
+
+  }
+  .footer-social{
+    display: flex;
+    gap: 25px;
+    .social-icon{
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      padding: 8px;
+      border-radius: 50%;
+    }
+  }
+}
