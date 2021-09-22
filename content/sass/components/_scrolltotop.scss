@@ -1,0 +1,18 @@
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: -40px;
+  background-image: linear-gradient(to bottom, #ff946d, #ff7d68);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+  img {
+    width: 25px;
+  }
+}
+.up.active{
+    right: 15px;
+  
+}

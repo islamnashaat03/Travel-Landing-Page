@@ -17,6 +17,7 @@
 
 <body>
   <div class="home-page">
+    <span class="up icon-chevron-up"></span>
     <!-- START NAVBAR  -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
@@ -28,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+              <a class="nav-link "  href="#destinations">Destinations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hotels</a>
+              <a class="nav-link active" aria-current="page"  href="#">Hotels</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Flights</a>
@@ -81,7 +82,7 @@
                   <a href="void:(0)" class="find-out-btn">Find out more</a>
                 </div>
                 <div>
-                  <a href="void:0" class="play-btn"><img src="content/images/Group 1.png" alt="" /> Play
+                  <a href="void:0" class="play-btn"><img src="content/images/play.png" alt="" /> Play
                     Demo</a>
                 </div>
               </div>
@@ -151,7 +152,7 @@
     </section>
     <!-- END CATEGOREY  -->
     <!-- START DESTINATIONS -->
-    <section class="destinations">
+    <section class="destinations" id="destinations">
       <div class="container">
         <div class="destinations__title">
           <h3 class="destinations__title-head">Top Selling</h3>
@@ -282,6 +283,40 @@
       </div>
     </section>
     <!-- END BOOK YOUR TRIP  -->
+    <!-- START TESTEMONIALS  -->
+    <section class="testemonials" id="testemonials-id>
+
+    </section>
+    <!-- END TESTEMONIALS  -->
+    <!-- START SUBSCRIBE  -->
+    <section class="subscribe" >
+      <div class="container">
+        <div class="subscribe-div">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="subscribe-wrapper">
+                <h3 class="subscribe__title ">
+                  Subscribe to get information, latest news and other
+                  interesting offers about Cobham
+                </h3>
+                <form action="" class="subscribe__form" >
+                  <div class="group">
+                    <input type="email"  class="input form-control" required>
+                    <button type="submit" class="btn submit-btn" >Subscribe</button>
+                    <span class=" icon-instagram"></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="subscribe--navigator">
+            <img src="content/images/Group 77.png" alt="">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- END SUBSCRIBE  -->
     <!-- START FOOTER  -->
     <footer class="footer">
       <div class="container">
@@ -324,9 +359,9 @@
           </div>
           <div class="col-lg-3 col-sm-12 col-md-6">
             <div class="footer-social">
-              <span class="social-icon icon-facebook"></span>
-              <span class="social-icon icon-instagram"></span>
-              <span class="social-icon icon-twitter"></span>
+              <a href="#"><span class="social-icon icon-facebook"></span></a>
+              <a href="#"><span class="social-icon icon-instagram"></span></a>
+              <a href="#"><span class="social-icon icon-twitter"></span></a>
             </div>
             <p class="discover">Discover our app</p>
             <div class="footer__stores">

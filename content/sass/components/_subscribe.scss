@@ -1,0 +1,99 @@
+.subscribe {
+  margin-bottom: 120px;
+
+  .subscribe-div {
+    background-image: url(../images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 60px 80px 40px;
+    border-radius: 129px 20px 20px 20px;
+    position: relative;
+
+    .subscribe__title {
+      font-family: Poppins;
+      font-size: calc((33px + ((40 - 33) * ((100vw - 1366px) / (1920 - 1366)))));
+      font-weight: 600;
+      line-height: 1.64;
+      text-align: center;
+      color: #5e6282;
+      margin-bottom: 60px;
+    }
+
+    .subscribe__form {
+
+      .group {
+        gap: 25px;
+        align-items: center;
+        display: flex;
+        position: relative;
+
+        .input {
+          padding: 16px;
+          border-radius: 10px;
+          box-shadow: none;
+          outline: 0;
+          border: 0;
+          padding-left: 40px;
+          font-size: 22px;
+        }
+
+        .submit-btn {
+          border-radius: 10px;
+          background-image: linear-gradient(to bottom, #ff946d, #ff7d68);
+          font-family: Poppins;
+          font-size: 17px;
+          font-weight: bold;
+          text-align: center;
+          color: #fff;
+          padding: 20px 45px;
+          box-shadow: none;
+          border: 0;
+
+        }
+
+        .icon-instagram {
+          font-size:25px;
+          left: 15px;
+          position: absolute;
+        }
+      }
+    }
+    .subscribe--navigator{
+      position: absolute;
+      top: -20px;
+      right: -20px;
+    }
+  }
+
+}
+
+@media only screen and (min-width:991px) {
+  .subscribe {
+    .subscribe-div {
+      .subscribe__form {
+        width: 75%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .subscribe {
+    .subscribe-div {
+      padding: 50px 20px 20px 30px;
+
+      .subscribe__form {
+        .group {
+          flex-direction: column;
+
+          // justify-content: center;
+          .icon-instagram {
+            top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
