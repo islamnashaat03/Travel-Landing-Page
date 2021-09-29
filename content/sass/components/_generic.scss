@@ -1,32 +1,36 @@
-body{
-  height: 10000px;
-}
-
-.container{
+.container {
   max-width: 1160px !important;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
-  &:hover{
+
+  &:hover {
     color: unset;
   }
 }
-img{max-width: 100%;}
-.flex-center{
+
+img {
+  max-width: 100%;
+}
+
+.flex-center {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 @media only screen and (min-width:1000px) {
-  .home-page{
+  .home-page {
     background-image: url(../images/Decore22.png);
     background-repeat: no-repeat;
     background-position: -585px -395px;
   }
 }
-@media only screen and (min-width:1441px)  {
-  .home-page{
+
+@media only screen and (min-width:1441px) {
+  .home-page {
     background-position: -325px -395px;
-}
+  }
 }

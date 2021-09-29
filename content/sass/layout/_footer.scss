@@ -55,7 +55,12 @@
       padding: 8px;
       border-radius: 50%;
       font-size: 22px;
+      transition: .3s;
+      &:hover {
+        background-color: #ff7d68;
+      }
     }
+
   }
 
   .discover {
@@ -81,7 +86,8 @@
       min-width: 100px;
       border-radius: 20px;
 
-      .icon-google-play,.icon-Group11 {
+      .icon-google-play,
+      .icon-Group11 {
         font-size: 25px;
       }
 
