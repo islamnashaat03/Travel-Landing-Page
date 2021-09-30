@@ -1,6 +1,5 @@
 window.onload = function () {
   // START SCROLL TO TOP BUTTON
-  if (window.matchMedia('(min-width:992px)').matches) {
     let span = document.querySelector(".up");
     window.onscroll = () => {
       if (scrollY >= 800) {
@@ -15,7 +14,7 @@ window.onload = function () {
         behavior: "smooth",
       })
     }
-  }
+  
   // END SCROLL TO TOP BUTTON
 
 
@@ -51,7 +50,7 @@ window.onload = function () {
 
   var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
-    effect : 'cards',
+    effect : 'slide',
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",

@@ -1,4 +1,5 @@
 .up {
+  display: block;
   position: fixed;
   bottom: 10px;
   right: -40px;
@@ -15,4 +16,9 @@
 .up.active{
     right: 15px;
   
+}
+@media only screen and (max-width:767px) {
+  .up{
+    display: none;
+  }
 }

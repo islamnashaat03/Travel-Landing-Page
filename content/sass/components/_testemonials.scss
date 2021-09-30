@@ -21,21 +21,36 @@
     }
   }
   .testemonials__right-side{
+    position: relative;
     .swiper{
       .swiper-wrapper{
         .swiper-slide{
           .slide-wrapper{
             width: 92%;
             border-radius: 10px;
-            box-shadow: 0 11.9px 26.3px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 12px 26px 1px rgba(0,0,0,0.1);
             background-color: #fff;
-            padding: 25px;
+            padding: 28px 68px 34px 34px ;
             p{
               margin-bottom: 35px;
             }
           }
         }
       }
+    }
+    .testemonials__right-side__img{
+      position: absolute;
+      top: -25px;
+      left: -25px;
+      z-index: 2;
+    }
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .testemonials{
+    .testemonials__right-side{
+      margin-bottom: 50px;
     }
   }
 }
