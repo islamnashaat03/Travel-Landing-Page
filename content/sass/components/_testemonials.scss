@@ -49,8 +49,17 @@
 
 @media only screen and (max-width:991px) {
   .testemonials{
+    margin-bottom: 30px;
     .testemonials__right-side{
       margin-bottom: 50px;
+      .testemonials__right-side__img{
+        top: -25px;
+        left: -10px;
+      }
+    }
+    .testemonials__left-side{
+      margin-bottom: 40px;
+     
     }
   }
 }

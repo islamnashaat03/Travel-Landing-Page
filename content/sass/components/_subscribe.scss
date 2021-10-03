@@ -63,7 +63,7 @@
     .subscribe--navigator {
       position: absolute;
       top: -20px;
-      right: -20px;
+      right: -10px;
     }
   }
 
@@ -94,6 +94,9 @@
             top: 20px;
           }
         }
+      }
+      .subscribe--navigator{
+        right: -5px;
       }
     }
   }
